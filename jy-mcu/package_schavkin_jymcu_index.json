@@ -16,7 +16,7 @@
           "checksum": "SHA-256:99f5b41df1bc83e6b050f9ec2029132e4eed089e6dc091508e2f083008343e49",
           "size": "9304",
           "boards": [
-            { "name": "JY-MEGA32" },
+            { "name": "JY-MEGA32" }
           ],
           "toolsDependencies": [
             {
