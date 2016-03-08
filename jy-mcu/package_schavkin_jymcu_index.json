@@ -1,0 +1,37 @@
+{
+  "packages": [
+    {
+      "name": "jy-mcu",
+      "maintaner": "schavkin",
+      "websiteURL": "https://github.com/schavkin/jy-mcu/",
+      "email": "schavkin@gmail.com",
+      "platforms": [
+        {
+          "name": "jy-mcu avr boards",
+          "architecture": "avr",
+          "version": "0.1",
+          "category": "ATmega",
+          "url": "https://schavkin.github.io/jy-mcu/jy-mcu-0.1.tar.gz",
+          "archiveFileName": "jy-mcu-0.1.tar.gz",
+          "checksum": "SHA-256:99f5b41df1bc83e6b050f9ec2029132e4eed089e6dc091508e2f083008343e49",
+          "size": "9304",
+          "boards": [
+            { "name": "JY-MEGA32" },
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
